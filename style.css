@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+    
+}
+
+.book {
+    border: 4px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: black;
+    color: blue;
+    padding: 10px;
+    margin: 25px;
+}
+
+form {
+    display:none;
+    border:4px;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: black;
+    
+}

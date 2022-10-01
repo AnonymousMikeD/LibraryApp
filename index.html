@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='Book.js' defer></script>
+</head>
+
+<body>
+    <h2>Library</h2>
+    <div>
+        <button class="newBookBtn">New Book</button>
+    </div>
+    <form class="bookForm">
+        <div>
+            <label for="title">Title</label>
+            <input type="text" id="title" placeholder="Book Title">
+        </div>
+        <div>
+            <label for="author">Author</label>
+            <input type="text" id="author" placeholder="Authors Name">
+        </div>
+        <div>
+            <label for="pages">Pages</label>
+            <input type="text" id="pages" placeholder="Amount of Pages">
+        </div>
+        <div>
+            <label for="read">Read Status</label>
+            <input type="checkbox" id="read" placeholder="Did you finish this book?">
+        </div>
+        <button class="formSubmitBtn" type="submit">Add</button>
+        <button class="closeBookBtn">Close</button>
+    </form>
+    <div id="card-container">
+        
+    </div>
+</body>
+
+</html>
